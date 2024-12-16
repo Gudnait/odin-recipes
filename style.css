@@ -4,11 +4,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;    
+}
+
 img {
     width: 500px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 35px auto;
 }
 
 h1 {
@@ -16,8 +22,29 @@ h1 {
     font-size: 34px;
 }
 
+.description, .ingredients, .steps {
+    margin-bottom: 35px;
+
+}
+
+.ingredients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients-list ul {
+    font-size: 26px;
+    text-align: justify;
+}
+
 ul {
     font-size: 26px;
+    text-align: justify;
+}
+
+ol {
+    font-size: 26px;
+    text-align: justify;
 }
 
 h2 {
@@ -27,4 +54,7 @@ h2 {
 
 p {
     font-size: 24px;
+    text-align: justify;
 }
+
+
